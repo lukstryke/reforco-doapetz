@@ -83,3 +83,86 @@ header a {
     padding: 15px 30px;
     border-radius: 10px;
 }
+
+
+
+/* section cards */
+
+.pcards1{
+    font-family: var(--fontRale);
+    font-size: 46px;
+    font-weight: 700;
+    text-align: center;
+        
+}
+
+.perfil{
+    margin-top: 122px;
+    background-color:#ff880052;
+    height: auto;
+   
+}
+
+.dog_walker{
+
+ padding-bottom: 64px;
+ display: flex;
+ justify-content: space-between;
+ 
+ height: 423px;
+ color: #FBFBFB;
+}
+
+.dw1{
+    width: 400px;
+    height: 322px;
+    background-color: #FBFBFB;
+    
+}
+
+.dw2{
+    width: 400px;
+    height: 322px;
+    background-color: #FBFBFB;
+    
+}
+
+.dw1 img{
+    padding: 30px 120 px;
+}
+
+.pdw1{
+    font-family:  var(--fontRale);
+    font-size: 22px;
+    font-weight: 500;
+    text-align: center;
+    color: #4E4B59;
+
+
+}
+
+.pdw2{
+    font-family:  var(--fontRale);
+    font-size: 22px;
+    font-weight: 500;
+    text-align: center;
+    color: #4E4B59;
+
+}
+
+.dw1 a{
+    font-family: var(--fontRale);
+    font-size: 22px;
+    font-weight: 600;
+    text-align: center;
+    color: #A944FF;
+
+}
+
+.dw2 a{
+    font-family: var(--fontRale);
+    font-size: 22px;
+    font-weight: 600;
+    text-align: center;
+    color: #0088AE;
+}
