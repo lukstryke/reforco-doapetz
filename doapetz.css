@@ -1,24 +1,24 @@
-*{
+* {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
 }
 
-:root{
---fontRale:'Raleway', sans-serif;
---fontMochy: 'Mochiy Pop One', sans-serif;
+:root {
+    --fontRale: 'Raleway', sans-serif;
+    --fontMochy: 'Mochiy Pop One', sans-serif;
 }
 
-header{
-    box-shadow: 0px 1px 10px rgba(0, 0, 0, 0.1);  
+header {
+    box-shadow: 0px 1px 10px rgba(0, 0, 0, 0.1);
     margin-bottom: 54px;
 }
 
-.div_header{
-    
+.div_header {
+
     display: flex;
     justify-content: space-between;
-    padding: 30px 0 ;  
+    padding: 30px 0;
 }
 
 header a {
@@ -37,44 +37,49 @@ header a {
 
 /* section pet ideal */
 
-.container_pet{
+
+.pet_ideal {
+    padding-bottom: 75px;
+}
+
+.container_pet {
     width: 1200px;
     margin: 0 auto;
 }
 
-.p_btn{
-    
-    font-family: var(--fontRale);   
+.p_btn {
+
+    font-family: var(--fontRale);
 }
 
-.dogs{
+.dogs {
     display: flex;
 }
 
-.auau{
+.auau {
     display: flex;
     gap: 20px;
 }
 
-.dogs>div{
+.dogs>div {
     margin-right: 30px;
     display: flex;
     flex-direction: column;
     justify-content: space-between;
 }
 
-.p1{
-    font-size:46px;
+.p1 {
+    font-size: 46px;
     font-weight: 700;
 }
 
-.p2{
+.p2 {
     font-size: 22px;
     font-weight: 500;
     margin: 85px 0 50px;
 }
 
-.p_btn a{
+.p_btn a {
     font-family: var(--fontMochy);
     font-size: 20px;
     color: #F5F5F5;
@@ -88,61 +93,73 @@ header a {
 
 /* section cards */
 
-.pcards1{
+
+
+.cards {
+    background-color: rgba(255, 136, 0, 0.15);
+}
+
+.pcards1 {
     font-family: var(--fontRale);
     font-size: 46px;
     font-weight: 700;
     text-align: center;
-        
+    margin: 0 auto;
+    width: 800px;
 }
 
-.perfil{
-    margin-top: 122px;
-    background-color:#ff880052;
+.perfil {
+    padding-top: 30px;
     height: auto;
-   
 }
 
-.dog_walker{
-
- padding-bottom: 64px;
- display: flex;
- justify-content: space-between;
- 
- height: 423px;
- color: #FBFBFB;
+.cards1 {
+    width: 750px;
+    height: 140px;
 }
 
-.dw1{
+.dog_walker {
+
+    margin-top: 50px;
+    padding-bottom: 64px;
+    display: flex;
+    justify-content: space-between;
+    height: 423px;
+    color: #FBFBFB;
+}
+
+.dw1,
+.dw2 {
     width: 400px;
     height: 322px;
     background-color: #FBFBFB;
-    
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    padding: 15px;
+    box-shadow: 2px 2px 15px rgba(78, 75, 89, 0.15);
+    border-radius: 10px;
+
 }
 
-.dw2{
+.dw1 img,
+.dw2 img {
+    width: 250px;
+}
+
+.dw2 {
     width: 400px;
     height: 322px;
     background-color: #FBFBFB;
-    
 }
 
-.dw1 img{
+.dw1 img {
     padding: 30px 120 px;
 }
 
-.pdw1{
-    font-family:  var(--fontRale);
-    font-size: 22px;
-    font-weight: 500;
-    text-align: center;
-    color: #4E4B59;
-
-
-}
-
-.pdw2{
-    font-family:  var(--fontRale);
+.pdw1 {
+    font-family: var(--fontRale);
     font-size: 22px;
     font-weight: 500;
     text-align: center;
@@ -150,19 +167,87 @@ header a {
 
 }
 
-.dw1 a{
+.pdw2 {
+    font-family: var(--fontRale);
+    font-size: 22px;
+    font-weight: 500;
+    text-align: center;
+    color: #4E4B59;
+}
+
+.dw1 a {
     font-family: var(--fontRale);
     font-size: 22px;
     font-weight: 600;
     text-align: center;
     color: #A944FF;
-
 }
 
-.dw2 a{
+.dw2 a {
     font-family: var(--fontRale);
     font-size: 22px;
     font-weight: 600;
     text-align: center;
     color: #0088AE;
+}
+
+
+
+/* section plataforma */
+
+.plataforma{
+    display: flex;
+    justify-content: space-between;
+}
+
+.paragrafos{
+    display: flex;
+    flex-direction: column;
+    /* background-color: #FF9922; */
+    gap: 20px;
+}
+
+.pg1,.cl1{
+    margin-top: 70px;
+}
+
+.pg1{
+    font-family: var(--fontRale);
+    font-weight: 700;
+    font-size: 46px;
+    text-align:start ;
+    width: 600px;
+    
+}
+.pg2{
+    font-family: var(--fontRale);
+    font-weight: 500;
+    font-size: 22px;
+    text-align: start;
+    width: 600px;
+}
+
+.cl1{
+    margin-bottom: 60px;
+}
+.cl1, .cl2{
+    display: flex;
+    /* background-color: #A944FF; */
+    width: 470px;
+    justify-content: space-around;
+
+}
+
+.img_span1, .img_span2, .img_span3, .img_span4{
+    display: flex;
+    flex-direction: column;
+    width: 60px;
+    align-items: center;
+}
+
+.sp1, .sp2, .sp3, .sp4{
+    font-family: var(--fontRale);
+    font-size: 20px;
+    font-weight: 600;
+    text-align: center;
 }
