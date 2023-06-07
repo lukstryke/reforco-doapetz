@@ -198,6 +198,7 @@ header a {
 .plataforma{
     display: flex;
     justify-content: space-between;
+    margin-bottom: 70px;
 }
 
 .paragrafos{
@@ -250,4 +251,84 @@ header a {
     font-size: 20px;
     font-weight: 600;
     text-align: center;
+}
+
+
+
+/* Section Contato */
+
+.contato{
+    background-color: rgba(255, 136, 0, 0.15);
+   
+}
+
+h2{
+    font-family: var(--fontRale);
+    font-size: 46px;
+    font-weight: 700;
+    text-align: center;
+    margin: 0 auto;
+    width: 800px;
+    padding-top: 30px;
+}
+
+.end_page img{
+    width: 400px;
+    margin-bottom: 50px;
+    
+}
+.end_page{
+
+    
+    display: flex;
+    justify-content: space-between;
+    margin-top: 40px;
+    
+}
+
+.formulario{
+    display: flex;
+    justify-content: space-between;
+    
+
+}
+
+form{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    
+}
+
+
+
+
+
+/* footer */
+
+footer{
+    background-color: #0088AE;
+}
+
+.div_footer{
+    display: flex;
+    justify-content: space-between;
+    padding: 30px 0;
+}
+
+.p1f{
+    font-family: var(--fontRale);
+    font-size: 18px;
+    color: #ffff;
+}
+
+.p2f{
+    font-family: var(--fontRale);
+    font-size: 16px;
+    color: #ffff;
+    text-align: center;
+}
+
+.img_redes{
+    display: flex;
 }
