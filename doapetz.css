@@ -332,3 +332,30 @@ footer{
 .img_redes{
     display: flex;
 }
+
+input, textarea{
+    border-radius: 8px;
+    border: none;
+}
+
+.posic_form{
+    display: flex;
+    flex-direction: column;
+}
+
+.posic_form label{
+    font-family: var(--fontRale);
+    font-size: 16px;
+}
+
+.end_page a{
+    
+    font-family: var(--fontMochy);
+    font-size: 20px;
+    color: #F5F5F5;
+    text-decoration: none;
+    background-color: #FF9922;
+    padding: 15px 15px;
+    border-radius: 10px;
+    text-align: center;
+}
